@@ -1,0 +1,12 @@
+package component:lambda-golem-bot;
+
+interface api {
+    //get-response: func(input-message: string) -> string;
+
+    hello-world: func() -> string;
+}
+
+/// An example world for the component to target.
+world example {
+    export api;
+}
